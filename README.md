@@ -67,3 +67,5 @@ optional arguments:
 ```
 
 `python3 aws_user_enum.py -a 123456789012 -p target_profile`
+
+With list of validated users, you can then create passwords with [password_creator.sh](https://github.com/confused-binary/aws_scripts/blob/main/password_creator.sh) and then spray with my fork of [GoAWSConsoleSpray](https://github.com/confused-binary/GoAWSConsoleSpray). Happy hunting, but only use this stuff when given approval to do so!
